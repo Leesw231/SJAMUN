@@ -45,18 +45,24 @@ nav .logo-link:hover img {
 .nav-links ul li:hover::after { width: 100%; }
 
 .text-box { width: 90%; color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
-.text-box h1 {
+
+.header .text-box h1 {
     font-size: clamp(60px, 10vw, 120px);
     letter-spacing: 8px;
-    font-weight: 900 !important;
 }
-.text-box h4 {
+.header .text-box h4 {
     font-family: 'Lato', sans-serif !important;
     font-size: clamp(18px, 2.5vw, 28px);
     margin-top: 20px;
     font-weight: 400;
     letter-spacing: 2px;
 }
+
+.subpage-header .text-box h1 {
+    font-size: 75px;
+    letter-spacing: 5px;
+}
+
 .section { width: 80%; margin: auto; padding: 100px 0; }
 .section-header { text-align: center; color: #154426; margin-bottom: 50px; font-size: 2em; }
 .line { width: 130px; height: 4px; background: #8fb88e; margin: 10px auto; }
